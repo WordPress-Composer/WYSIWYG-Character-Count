@@ -1,0 +1,20 @@
+{
+    "name": "wpcomposer/wysiwyg-character-count",
+    "description": "Character counter for the WordPress WYSIWYG",
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "homepage": "https://github.com/WordPress-Composer/WYSIWYG-Character-Count",
+    "authors": [
+        {
+            "name": "Gemma Black",
+            "email": "gblackuk@gmail.com",
+            "homepage": "https://gist.github.com/gemmadlou/877c09ead0dd7a0b1cefe1030eaeaecc"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WCom\\WYSIWYG\\": "src/"
+        }
+    }
+}
