@@ -4,9 +4,10 @@ A WordPress plugin that counts characters in the WYSIWYG editor.
 
 ## Why a character counter?
 
-Currently this is no character counter for the WYSIWYG editor.
-It does however count words. Having both a word and character counter 
-is helpful though, to editors and content creators.
+Currently there is no character counter for the WYSIWYG editor.
+It does have a word counter (for non-ACF WYSIWYGs). 
+Having both a word and character counter is helpful for 
+editors and content creators.
 
 ## Pre-requisites
 
