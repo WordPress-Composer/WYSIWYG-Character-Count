@@ -29,7 +29,14 @@ composer require wpcomposer/wysiwyg-character-count
 
 Activate it by registering the character counter.
 
+```
+> theme-folder/functions.php
+```
 ```php
+<?php 
+
+use WCom\WYSIWYG\WYSIWYG;
+
 WYSIWYG::registerCharacterCount();
 ```
 
