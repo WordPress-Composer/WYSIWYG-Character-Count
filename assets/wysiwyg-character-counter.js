@@ -30,15 +30,15 @@
             try {
                 var parent = editor.getContainer().parentNode;
 
-                let statusbar = editor.theme.panel && editor.theme.panel.find('#statusbar')[0];
+                var statusbar = editor.theme.panel && editor.theme.panel.find('#statusbar')[0];
                 
                 statusbar.insert({
                     type: 'label',
                     name: 'charactercount',
                     text: ['Characters: {0}', contentLength(editor)],
-                    classes: 'charactercount',
                     disabled: editor.settings.readonly,
-                    style: 'font-size: 12px'
+                    class: 'charactercount',
+                    style: 'font-size: 12px; padding: 2px 8px;'
                 }, 0);
 
                 editor.on('keyup undo redo paste', function() {
