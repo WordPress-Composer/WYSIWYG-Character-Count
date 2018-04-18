@@ -29,9 +29,7 @@ composer require wpcomposer/wysiwyg-character-count
 
 ## Usage
 
-1) Go to the WordPress admin dashboard. Access the plugins admin. [Activate](https://codex.wordpress.org/Managing_Plugins) the plugin.
-
-2) Register the character counter.
+Register the character counter.
 
 ```
 > theme-folder/functions.php
@@ -44,10 +42,13 @@ use WCom\WYSIWYG\WYSIWYG;
 WYSIWYG::registerCharacterCount();
 ```
 
-> Why activate the plugin - and then register the counter?
+> Why not just activate the plugin - which turns on the counter?
 > 
 > Good point. I'll decide in version 1.0.0 whether
 > to automatically have character counting when the plugin is active.
+> 
+> Currently, the counter will work with the above code, even if the
+> plugin is not active, which feels wrong.
 
 ## MU-Plugin Instead
 
